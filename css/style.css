@@ -10,7 +10,8 @@ body {
 /* Hero header section */
 header {
   /* Background image for the hero section. Use JPG for better compression */
-  background-image: url('../images/hero-bg.jpg');
+  /* Updated path to look in repository root since images folder is not created */
+  background-image: url('../hero-bg.jpg');
   background-size: cover;
   background-position: center;
   color: #ffffff;
